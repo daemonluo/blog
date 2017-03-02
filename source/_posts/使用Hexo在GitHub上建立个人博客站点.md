@@ -1,5 +1,7 @@
 ---
 title: 使用Hexo在GitHub上建立个人博客站点
+categories:
+    - 写作
 tags:
     - hexo
 description: 最近使用hexo在github上搭建了个人博客站点，整个过程虽然不是十分复杂，但还是花费了一些时间。作为第一篇博客，正好回顾一下hexo建立博客站点的整个过程
@@ -45,3 +47,6 @@ deploy:
     branch: master
 ```
 然后运行`hexo deploy`，就可以将该博客部署至github了。
+
+
+关于Hexo的具体使用可以参考 {% post_link hexo一些常见的使用方法 Hexo一些常见的使用方法 %} 。

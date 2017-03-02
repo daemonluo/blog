@@ -239,7 +239,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night
+highlight_theme: night bright
 
 
 # ---------------------------------------------------------------
@@ -387,6 +387,8 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
+local_search:
+    enable: true
 
 
 #! ---------------------------------------------------------------
